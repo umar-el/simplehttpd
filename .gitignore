@@ -1,0 +1,12 @@
+# Build output
+**/bin/simplehttpd
+Stage3/bin/
+*.o
+
+# Superpowers scratch
+.superpowers/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

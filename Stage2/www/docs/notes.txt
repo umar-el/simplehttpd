@@ -1,0 +1,2 @@
+Each connection is handled by a child process created with fork().
+The parent reaps finished children in its SIGCHLD handler.
