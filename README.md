@@ -3,7 +3,6 @@
 A small HTTP file server written in C. It serves a folder over HTTP to browsers and `curl`, using only the C
 library and POSIX system calls: sockets, `fork`, signals, `realpath`, `opendir` and `read`/`write`.
 
-It is a companion to [SimpleShell](../2026-simpleshell-main). The shell starts programs with `fork` and `execvp`.
 This project adds networking, signal handling, a text protocol and file-system security.
 
 The server comes in two versions, plus a test suite:
